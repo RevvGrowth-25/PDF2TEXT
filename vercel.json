@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "src": "api/pdf_to_text.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/api/pdf_to_text", "dest": "api/pdf_to_text.py" }
+  ]
+}
